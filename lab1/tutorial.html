@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Earthquake service" />
+    <meta name="author" content="Laptiy_MPB904" />
+    <title>Tutorial</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version) Font Awesome предлагает вам масштабируемые векторные иконки,
+             которые вы можете с легкостью персонализировать — размер, цвет, тени и все, что можно сделать силами CSS-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <!-- Core theme CSS табличка стилей-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body id="Главная-страница">
+
+    <!-- HTML-элемент <nav> определяет отдельную секцию документа,
+             назначение которой обозначение ссылок навигации (как внутри текущего документа,
+             так и ведущих на другую страницу). В качестве примера такой секции можно привести меню, якорные ссылки.-->
+
+    <!-- настройка панели навигации:
+             Стандартные панели инструментов созданы с классом .navbar, 
+             и классом .navbar-expand-xl|lg|md|sm, чтобы ясно указать для каких экранов 
+             панель инструментов будет расширен  (expand), или наоборот уменьшен (collapse).
+            lg (Large) - Width>=992px
+        При изменении размера экрана панель меняется-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <!--Используtv <a class="navbar-brand">, чтобы создать Brand (Место для логотипа/имени сайта).-->
+            <a class="navbar-brand" href="#Главная-страница">Website for online chess games</a>
+            <!--Чтобы навигационный бар менялся от строки до кнопки (когда пользователь 
+                    нажимает на этот button, навигационный бар будет отображен вертикально),
+                     вам нужно использовать комбинацию следующих классов css:
+                          collapse
+                          navbar-collapse
+                          navbar-toggler-->
+            <div class="dropdown">
+                <button class="dropbtn navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a class="nav-link" href="index.html#about">About</a>
+                    <a class="nav-link" href="tutorial.html#about">Description</a>
+                    <a class="nav-link" href="general.html#about">Game</a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tutorial.html#about">Description</a></li>
+                    <li class="nav-item"><a class="nav-link" href="general.html#about">Game</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Экран приветствия"-->
+    <header class="masthead">
+
+    </header>
+
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <!--Установка ширины колонок col-lg-8 Максимальная ширина контейнера 960px-->
+                <div class="col-lg-8">
+                    <h2 class="text-white mb-4">Правила игры</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects-->
+    <section class="projects-section bg-light" id="description">
+        <div class="container px-4 px-lg-5">
+            <!-- Featured Project Row-->
+            <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/pic7.jpg"
+                        alt="..." /></div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <p class="text-black-50 mb-0">Шашки наиболее демократичная логическая игра для двоих. При этом
+                            можно сказать, что им все возрасты покорны. Простая понятная логика позволяет начинать
+                            осваивать эту игру ребенку, начиная с четырех лет. Благодаря именно своей логической
+                            простоте шашки стали очень популярны по всему миру, и стоит заметить, что ни у одной
+                            логической игры нет столько разновидностей.
+                            На этой странице приведены описания правил игры в шашки для начинающих, особенности
+                            выполнения ходов и правил боя:
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    </section>
+
+    <section class="projects-section bg-light" id="rules">
+        <div class="container px-4 px-lg-5">
+
+
+            <div class="featured-text text-lg-left text-lg-left">
+                <h4>Цель игры:</h4>
+                <p class="text-black-50 col-xl-8">
+                    Выиграть партию - когда у соперника не осталось ни одной шашки, шашки соперника заблокированы или
+                    соперник досрочно признал свое поражение.
+                    При невозможности выигрыша любого из участников игры, партия считается законченной в ничью.
+                </p>
+            </div>
+
+
+            <!-- Project One Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-md-4"><img class="img-fluid" src="assets/img/dia1.jpg" alt="..." /></div>
+                <div class="col-lg-8">
+                    <div class="bg-light text-lg-left h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text my-auto text-lg-left text-lg-left">
+                                <h4 class="text-black">Правила:</h4>
+                                <p class="mb-0 text-black-50">
+                                    В игре принимают участие 2 игрока. Игроки располагаются на противоположных сторонах
+                                    доски.
+                                    Игровое поле (доска) располагается таким образом, что бы угловое темное поле было
+                                    расположено с левой стороны игрока (Диаграмма №1).
+                                </p>
+
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Two Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-md-4"><img class="img-fluid" src="assets/img/dia2.jpg" alt="..." /></div>
+                <div class="col-lg-8 order-lg-first">
+                    <div class="bg-light text-lg-left h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-left text-lg-right">
+
+                                <p class="mb-0 text-black-50">
+                                    Выбор цвета игроками определяется жребием или по договоренности. Шашки расставляются
+                                    на трех, ближних к игроку, рядах на темных клетках, как показано на рисунке. Право
+                                    первого хода обычно принадлежит игроку, который играет белым (светлым) цветом. Ходы
+                                    осуществляются соперниками поочередно. Ход считается сделанным, если участник игры
+                                    после перемещения шашки отпустил руку. Если игрок дотронулся до шашки, он обязан ей
+                                    сделать ход. Если, кто-либо из соперников хочет поправить шашки, обязан предупредить
+                                    заранее.
+                                </p>
+                                <p class="mb-0 text-black-50">-В начале игры все шашки соперников являются простыми.
+                                    Простые шашки можно перемещать только вперед по диагоналям на соседнюю свободную
+                                    клетку.
+                                    Если простая шашка дошла до последней горизонтали, она становится «дамкой» и
+                                    обозначается переворачиванием (Диаграмма №3). Дамка может перемещаться по диагоналям
+                                    на любое количество свободных клеток.</p>
+
+
+                                <hr class="d-none d-lg-block mb-0 me-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-md-4"><img class="img-fluid" src="assets/img/dia3.jpg" alt="..." /></div>
+                <div class="col-lg-7">
+                    <div class="bg-light text-lg-left h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-left text-lg-left">
+                                <p class="mb-0 text-black-50">
+                                    Взятие шашки соперника производится, переносом через неё своей, в том случае, если
+                                    она находится на соседней с простой шашкой диагональной клетке и за ней имеется
+                                    свободное поле (Диаграмма №2). Если после этого хода имеется продолжение для взятия
+                                    других шашек соперника, ход продолжается. Шашка (шашки) соперника снимается с доски.
+                                    Взятие шашки соперника может производиться, как вперед, так и назад, и является
+                                    обязательной, если перед началом игры не договорились об изменении этого правила.
+                                    Взятие дамкой шашек соперника может осуществляться через любое количество
+                                    диагональных клеток, при наличии свободного пространства за «жертвой». Если она
+                                    снова оказывается на одной диагонали рядом или на расстоянии от шашки соперника, за
+                                    которой находится одно или несколько свободных полей, дамка обязательно должна
+                                    продолжить взятие последующих и занять любое свободное поле на той же диагонали за
+                                    последней взятой шашкой.
+                                </p>
+                                <p class="mb-0 text-black-50">
+                                    В тех случаях, когда простая шашка при взятии достигает последнего горизонтального
+                                    ряда и ей предоставляется возможность дальнейшего взятия шашек, то она обязана тем
+                                    же ходом продолжать бой, но уже на правах дамки.
+                                    В тех случаях, когда шашка достигла последней горизонтали без взятия и ей после
+                                    этого предоставляется возможность боя, то она должна бить, при условии, если эта
+                                    возможность сохранится лишь следующим ходом на правах дамки.
+                                    Битые шашки снимаются с доски только по окончании хода, повторное «перескакивание»
+                                    через битые шашки запрещены.
+                                </p>
+
+
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-text text-lg-left text-lg-left">
+                <h4>ЗАПИСЬ ХОДОВ</h4>
+                <p class="text-black-50 col-xl-8">
+                    Для записи хода простой шашки или дамки обозначают сначала поле, где шашка или дамка стояла, затем
+                    ставят тире и записывают поле, на которое она ставится (например: e3–d4 в русских шашках; 8–12 в
+                    международных шашках).
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!-- More information-->
+    <section class="signup-section" id="signup">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    <i class='fas fa-chess-pawn'></i>
+                    <p>
+                    <form class="form-signup" id="contactForm" action="index.html" target="_self">
+                        <button class="btn btn-primary" id="submitButton">Homepage</button>
+                    </form>
+                    </p>
+                    <p>
+                    <form class="form-signup" id="contactForm" action="info.html" target="_self">
+                        <button class="btn btn-primary" id="submitButton">Back to list</button>
+                    </form>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
