@@ -149,7 +149,7 @@ td {
   color: black;
 }
 
-.black-piece {
+.red-piece {
   width: 20px;
   height: 20px;
   padding: 12px;
@@ -158,7 +158,7 @@ td {
   border-radius: 50px;
 }
 
-.red-piece {
+.black-piece {
   width: 20px;
   height: 20px;
   padding: 12px;
@@ -167,11 +167,11 @@ td {
   border-radius: 50px;
 }
 
-.king.red-piece {
+.king.black-piece {
   background-color: orange;
 }
 
-.king.black-piece {
+.king.red-piece {
   background-color: purple;
 }
 
