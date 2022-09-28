@@ -395,16 +395,16 @@ function giveCellsClick() {
 function givePieceBorder() {
 
     for (var el = 0; el < document.getElementsByClassName("black-piece").length; el++) {
-        document.getElementsByClassName("black-piece")[el].style.background = "black";
+        document.getElementsByClassName("black-piece")[el].style.background = "red";
     }
     for (var el = 0; el < document.getElementsByClassName("red-piece").length; el++) {
-        document.getElementsByClassName("red-piece")[el].style.background = "red";
+        document.getElementsByClassName("red-piece")[el].style.background = "black";
     }
     for (var el = 0; el < document.getElementsByClassName("red-piece king").length; el++) {
-        document.getElementsByClassName("red-piece king")[el].style.background = " orange";
+        document.getElementsByClassName("red-piece king")[el].style.background = " purple";
     }
     for (var el = 0; el < document.getElementsByClassName("black-piece king").length; el++) {
-        document.getElementsByClassName("black-piece king")[el].style.background = "purple";
+        document.getElementsByClassName("black-piece king")[el].style.background = "orange";
     }
 
     if (selectedPiece.seventhSpace || selectedPiece.ninthSpace || selectedPiece.fourteenthSpace || selectedPiece.eighteenthSpace
@@ -415,12 +415,12 @@ function givePieceBorder() {
 
             paint();
             for (var el = 0; el < document.getElementsByClassName("black-piece cur").length; el++) {
-                document.getElementsByClassName("black-piece cur")[el].style.background = "black";
+                document.getElementsByClassName("black-piece cur")[el].style.background = "red";
                 document.getElementById(selectedPiece.pieceId).classList.remove('cur');
             }
             for (var el = 0; el < document.getElementsByClassName("red-piece cur").length; el++) {
 
-                document.getElementsByClassName("red-piece cur")[el].style.background = "red";
+                document.getElementsByClassName("red-piece cur")[el].style.background = "black";
                 document.getElementById(selectedPiece.pieceId).classList.remove('cur');
 
             }
@@ -428,14 +428,14 @@ function givePieceBorder() {
         }else if(clas=='red-piece king cur'){
             paint();
             for (var el = 0; el < document.getElementsByClassName(clas).length; el++) {
-                document.getElementsByClassName(clas)[el].style.background = "orange";
+                document.getElementsByClassName(clas)[el].style.background = "purple";
                 document.getElementById(selectedPiece.pieceId).classList.remove('cur');
             }
 
         } else if(clas=='black-piece king cur'){
             paint();
             for (var el = 0; el < document.getElementsByClassName(clas).length; el++) {
-                document.getElementsByClassName(clas)[el].style.background = "purple";
+                document.getElementsByClassName(clas)[el].style.background = "orange";
                 document.getElementById(selectedPiece.pieceId).classList.remove('cur');
             }}
          else {
