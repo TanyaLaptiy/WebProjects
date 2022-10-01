@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Earthquake service" />
+        <meta name="author" content="Laptiy_MPB904" />
+        <title>Website for online chess games</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version) Font Awesome предлагает вам масштабируемые векторные иконки,
+             которые вы можете с легкостью персонализировать — размер, цвет, тени и все, что можно сделать силами CSS-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        
+        <!-- Core theme CSS табличка стилей-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="Главная-страница"> 
+      
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav"> 
+          
+            <div class="container px-4 px-lg-5">
+                <!--Используtv <a class="navbar-brand">, чтобы создать Brand (Место для логотипа/имени сайта).-->
+                <a class="navbar-brand mainContent" href="#Главная-страница">Website for online chess games</a>
+                <!--Чтобы навигационный бар менялся от строки до кнопки (когда пользователь 
+                    нажимает на этот button, навигационный бар будет отображен вертикально),
+                     вам нужно использовать комбинацию следующих классов css:
+                          collapse
+                          navbar-collapse
+                          navbar-toggler-->
+
+
+                          <div class="dropdown mainContent">
+                            <button class="dropbtn navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                                Menu
+                                <i class="fas fa-bars"></i>
+                            </button>
+                                 <div class="dropdown-content">
+                                <a class="nav-link" href="#about">About</a>
+                                <a class="nav-link" href="tutorial.html#about">Description</a>
+                                <a class="nav-link" href="general.html#about">Game</a>
+                            </div>
+                          </div>
+
+
+
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tutorial.html#about">Description</a></li>
+                        <li class="nav-item"><a class="nav-link" href="general.html#about">Game</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="secondFixedBar">
+                <ul>
+                    <li><a  href="#about">About</a></li>
+                    <li><a  href="tutorial.html#about">Description</a></li>
+                    <li><a href="general.html#about">Game</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Экран приветствия"-->
+        <header class="masthead">
+            <!--одительский элемент .container или .container-fluid может нуждаться в корректировке,
+                 если также используются более крупные промежутка, чтобы избежать нежелательного переполнения,
+                  с помощью соответствующей утилиты заполнения.
+                мы увеличили отступ с помощью .px-4:-->
+            <div class=" container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <!-- выровняем flex-элементы в направлении главной оси на всех устройствах по центру-->
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">Шашки</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Ша́шки — логическая настольная игра для двух игроков, заключающаяся в передвижении определённым образом фишек-шашек по клеткам шашечной доски. Во время партии каждому игроку принадлежат шашки одного цвета: чёрного или белого (иногда других цветов, один из которых считается тёмным, а другой — светлым). </h2>
+                        <a class="btn btn-primary" href="#about">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center mainContent" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <!--Установка ширины колонок col-lg-8 Максимальная ширина контейнера 960px-->
+                    <div class="col-lg-8">
+                        <!--В утилитах фона не задается атрибут color, так что 
+                            в некоторых случаях вам понадобится утилиты .text-*-->
+                        <h2 class="text-white mb-4">Our website</h2>
+                        <p class="text-white-50">
+                            Наш вебсайт предоставляет информацию с правилами игры и описанием способа записи партии, так же вы сможете найти страницу игры с игровым полем и размещенными на нем шашками.
+                        </p>
+                    </div>
+                </div>
+                <!--Alt (Альт) – это атрибут для тега img, в котором устанавливается альтернативный текст для изображения. 
+                    Текстовая информация отображается при отключенной загрузке графики в браузере 
+                    пользователя и дает понять, что изображено на этой картинке-->
+                <img class="img-fluid" src="assets/img/picback2.png" alt="..." />
+            </div>
+        </section>
+     
+        <!-- More information-->
+        <section class="signup-section mainContent" id="signup">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class='fas fa-chess-pawn'></i>
+                                                <h2 class="text-white mb-5">Get more interesting and useful information!</h2>
+                        <form class="form-signup" id="contactForm"  action="info.html" target="_self">
+                            
+                            <button class="btn btn-primary" id="submitButton" >READ</button>
+                           </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="contact-section bg-black mainContent">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Address</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">11 Joseb Grishashvili Street, Kutaisi 4600, Georgia</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="#!">tanyalaptiy1@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">+995 57 404 98 66</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://vk.com/id292896779"><i class="fab fa-vk"></i></a>
+                    <a class="mx-2" href="https://github.com/TanyaLaptiy"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50 mainContent"><div class="container px-4 px-lg-5">МПБ - 904 (Лаптий Татьяна) 2022</div></footer>
+       <!-- Core theme JS-->
+       <script src="js/scripts.js"></script>
+       <!-- SimpleLightbox plugin JS-->
+       
+    </body>
+</html>
